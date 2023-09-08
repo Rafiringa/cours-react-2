@@ -41,7 +41,7 @@ const Article = ({ article }) => {
     >
       <div className="card-header">
         <h3>{article.author}</h3>
-        <em>Poste le {dateFormater(article.date)}</em>
+        <em>Posté le {dateFormater(article.date)}</em>
       </div>
       {isEditing ? (
         <textarea
